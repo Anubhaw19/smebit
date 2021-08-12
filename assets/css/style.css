@@ -287,7 +287,18 @@ h1, h2, h3, h4, h5, h6 {
   .navbar ul {
     display: none;
   }
+  @media (max-width: 767px) 
+{
+#nav_team{
+  display: none;
 }
+}
+  
+}
+
+
+
+
 
 .navbar-mobile {
   position: fixed;
@@ -366,6 +377,7 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-mobile .dropdown > .dropdown-active {
   display: block;
 }
+
 
 /*--------------------------------------------------------------
 # Hero Section
@@ -1054,7 +1066,7 @@ section {
 }
 
 .team .member .social a:hover {
-  background: #8fc04e;
+  background: #4e7cc0;
 }
 
 .team .member .social i {
@@ -1075,9 +1087,9 @@ section {
 
 .team .member .member-info span {
   display: block;
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 400;
-  color: #aaaaaa;
+  color: #878686;
 }
 
 .team .member .member-info p {
@@ -1104,8 +1116,8 @@ section {
 --------------------------------------------------------------*/
 .testimonials {
   padding: 80px 0;
-  background: url("../img/testimonials-bg.jpg") no-repeat;
-  background-position: center center;
+  background: url("../img/bitbuilding.jpg") no-repeat;
+  background-position:  right bottom;
   background-size: cover;
   position: relative;
 }
@@ -1130,7 +1142,7 @@ section {
 }
 
 .testimonials .testimonial-item .testimonial-img {
-  width: 100px;
+  width: 200px;
   border-radius: 50%;
   border: 6px solid rgba(255, 255, 255, 0.15);
   margin: 0 auto;

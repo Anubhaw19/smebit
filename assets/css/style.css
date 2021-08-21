@@ -532,11 +532,19 @@ section {
 
 .about .box-heading h3 {
   font-size: 28px;
-  font-weight: 700;
+  font-weight: 400;
   color: #353535;
   margin-bottom: 15px;
 }
-
+.about .box-heading p {
+  font-size: 17px;
+  color: #353535;
+  margin-bottom: 15px;
+}
+.about h3 span{
+   color: #8fc04e;
+   font-weight: 700;
+}
 .about .icon-box {
   margin-top: 40px;
 }
@@ -586,7 +594,12 @@ section {
 .about .icon-box .description {
   margin-left: 85px;
   line-height: 24px;
-  font-size: 14px;
+  font-size: 17px;
+}
+.about .icon-box ul {
+  margin-left: 85px;
+  line-height: 24px;
+  font-size: 17px;
 }
 
 .about .video-box {
@@ -698,6 +711,7 @@ section {
   padding: 50px 30px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   transition: all ease-in-out 0.3s;
+  
 }
 
 .why-us .box span {
@@ -718,6 +732,12 @@ section {
 .why-us .box p {
   color: #919191;
   font-size: 15px;
+  margin: 0;
+  padding: 0;
+}
+.why-us .box li {
+  color: #919191;
+  font-size: 17px;
   margin: 0;
   padding: 0;
 }
@@ -757,7 +777,7 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(rgba(2, 2, 2, 0.7), rgba(0, 0, 0, 0.9)), url("../img/cta-bg.jpg") fixed center center;
+  background: linear-gradient(rgba(2, 2, 2, 0.7), rgba(0, 0, 0, 0.9)), url("../img/minbuild.jpg") fixed center center;
   background-size: cover;
   padding: 60px 0;
 }
@@ -1116,8 +1136,8 @@ section {
 --------------------------------------------------------------*/
 .testimonials {
   padding: 80px 0;
-  background: url("../img/bitbuilding.jpg") no-repeat;
-  background-position:  right bottom;
+  background: url("../img/bitbuilding.jpeg") no-repeat;
+  background-position:  center bottom;
   background-size: cover;
   position: relative;
 }

@@ -643,8 +643,8 @@ section {
   height: 120px;
   -webkit-animation-delay: 0s;
   animation-delay: 0s;
-  -webkit-animation: pulsate-btn 2s;
-  animation: pulsate-btn 2s;
+  -webkit-animation: pulsate-btn 1s;
+  animation: pulsate-btn 1s;
   -webkit-animation-direction: forwards;
   animation-direction: forwards;
   -webkit-animation-iteration-count: infinite;

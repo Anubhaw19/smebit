@@ -1,3 +1,3 @@
 # smebit
 
-### [smebits.live](https://www.smebits.live)
+### [smebits.live](https://smebits.live/)

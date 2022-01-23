@@ -1125,7 +1125,7 @@ section {
 }
 /* from teams section for mobile view */
 
-@media (max-width: 767px) {
+@media (max-width: 320px) {
   .team {
       display:none;
   }
@@ -1220,6 +1220,7 @@ section {
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #8fc04e;
 }
+
 
 @media (min-width: 992px) {
   .testimonials .testimonial-item p {
